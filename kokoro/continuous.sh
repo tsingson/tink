@@ -27,7 +27,7 @@ cd git*/tink
 source ./kokoro/run_tests.sh
 
 # Test that Tink can be installed with the standard Go tooling.
-go get github.com/google/tink/go/...
+go get github.com/google/tink/golang/...
 
 # Run all manual tests.
 time bazel test \

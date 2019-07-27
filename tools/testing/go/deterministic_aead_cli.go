@@ -33,9 +33,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/tsingson/tink/go/daead"
-	"github.com/tsingson/tink/go/keyset"
-	"github.com/tsingson/tink/go/testkeyset"
+	"github.com/tsingson/tink/golang/daead"
+	"github.com/tsingson/tink/golang/keyset"
+	"github.com/tsingson/tink/golang/testkeyset"
 )
 
 func main() {

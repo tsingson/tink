@@ -30,9 +30,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/tsingson/tink/go/keyset"
-	"github.com/tsingson/tink/go/mac"
-	"github.com/tsingson/tink/go/testkeyset"
+	"github.com/tsingson/tink/golang/keyset"
+	"github.com/tsingson/tink/golang/mac"
+	"github.com/tsingson/tink/golang/testkeyset"
 )
 
 func main() {

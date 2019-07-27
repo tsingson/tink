@@ -26,12 +26,12 @@ import (
 	"flag"
 	// context is used to cancel outstanding requests
 	// TEST_SRCDIR to read the roots.pem
-	"github.com/tsingson/tink/go/aead"
-	"github.com/tsingson/tink/go/core/registry"
-	"github.com/tsingson/tink/go/insecurecleartextkeyset"
-	"github.com/tsingson/tink/go/integration/awskms"
-	"github.com/tsingson/tink/go/integration/gcpkms"
-	"github.com/tsingson/tink/go/keyset"
+	"github.com/tsingson/tink/golang/aead"
+	"github.com/tsingson/tink/golang/core/registry"
+	"github.com/tsingson/tink/golang/insecurecleartextkeyset"
+	"github.com/tsingson/tink/golang/integration/awskms"
+	"github.com/tsingson/tink/golang/integration/gcpkms"
+	"github.com/tsingson/tink/golang/keyset"
 
 	tinkpb "github.com/tsingson/tink/proto/tink_go_proto"
 )
