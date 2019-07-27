@@ -19,8 +19,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/google/tink/go/subtle/mac"
-	"github.com/google/tink/go/subtle/random"
+	"github.com/tsingson/tink/go/subtle/mac"
+	"github.com/tsingson/tink/go/subtle/random"
 )
 
 var key, _ = hex.DecodeString("000102030405060708090a0b0c0d0e0f")

@@ -19,9 +19,7 @@ package gcpkms
 import (
 	"encoding/base64"
 
-	"google.golang.org/api/cloudkms/v1"
-
-	"github.com/google/tink/go/tink"
+	"github.com/tsingson/tink/go/tink"
 )
 
 // GCPAEAD represents a GCP KMS service to a particular URI.

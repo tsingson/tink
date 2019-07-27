@@ -26,14 +26,14 @@ import (
 	"flag"
 	// context is used to cancel outstanding requests
 	// TEST_SRCDIR to read the roots.pem
-	"github.com/google/tink/go/aead"
-	"github.com/google/tink/go/core/registry"
-	"github.com/google/tink/go/insecurecleartextkeyset"
-	"github.com/google/tink/go/integration/awskms"
-	"github.com/google/tink/go/integration/gcpkms"
-	"github.com/google/tink/go/keyset"
+	"github.com/tsingson/tink/go/aead"
+	"github.com/tsingson/tink/go/core/registry"
+	"github.com/tsingson/tink/go/insecurecleartextkeyset"
+	"github.com/tsingson/tink/go/integration/awskms"
+	"github.com/tsingson/tink/go/integration/gcpkms"
+	"github.com/tsingson/tink/go/keyset"
 
-	tinkpb "github.com/google/tink/proto/tink_go_proto"
+	tinkpb "github.com/tsingson/tink/proto/tink_go_proto"
 )
 
 // lint placeholder header, please ignore

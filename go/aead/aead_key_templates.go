@@ -16,13 +16,14 @@ package aead
 
 import (
 	"github.com/golang/protobuf/proto"
-	ctrpb "github.com/google/tink/proto/aes_ctr_go_proto"
-	ctrhmacpb "github.com/google/tink/proto/aes_ctr_hmac_aead_go_proto"
-	gcmpb "github.com/google/tink/proto/aes_gcm_go_proto"
-	commonpb "github.com/google/tink/proto/common_go_proto"
-	hmacpb "github.com/google/tink/proto/hmac_go_proto"
-	kmsenvpb "github.com/google/tink/proto/kms_envelope_go_proto"
-	tinkpb "github.com/google/tink/proto/tink_go_proto"
+
+	ctrpb "github.com/tsingson/tink/proto/aes_ctr_go_proto"
+	ctrhmacpb "github.com/tsingson/tink/proto/aes_ctr_hmac_aead_go_proto"
+	gcmpb "github.com/tsingson/tink/proto/aes_gcm_go_proto"
+	commonpb "github.com/tsingson/tink/proto/common_go_proto"
+	hmacpb "github.com/tsingson/tink/proto/hmac_go_proto"
+	kmsenvpb "github.com/tsingson/tink/proto/kms_envelope_go_proto"
+	tinkpb "github.com/tsingson/tink/proto/tink_go_proto"
 )
 
 // This file contains pre-generated KeyTemplates for AEAD keys. One can use these templates

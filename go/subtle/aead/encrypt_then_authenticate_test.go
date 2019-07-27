@@ -19,10 +19,10 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/google/tink/go/subtle/aead"
-	"github.com/google/tink/go/subtle/mac"
-	"github.com/google/tink/go/subtle/random"
-	"github.com/google/tink/go/tink"
+	"github.com/tsingson/tink/go/subtle/aead"
+	"github.com/tsingson/tink/go/subtle/mac"
+	"github.com/tsingson/tink/go/subtle/random"
+	"github.com/tsingson/tink/go/tink"
 )
 
 func createAEADWithKeys(encryptionKey []byte, ivSize int, hashAlgo string, macKey []byte, tagSize int) (tink.AEAD, error) {

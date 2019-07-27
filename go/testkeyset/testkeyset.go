@@ -18,9 +18,9 @@ package testkeyset
 import (
 	"errors"
 
-	"github.com/google/tink/go/internal"
-	"github.com/google/tink/go/keyset"
-	tinkpb "github.com/google/tink/proto/tink_go_proto"
+	"github.com/tsingson/tink/go/internal"
+	"github.com/tsingson/tink/go/keyset"
+	tinkpb "github.com/tsingson/tink/proto/tink_go_proto"
 )
 
 var (

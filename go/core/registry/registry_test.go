@@ -18,15 +18,16 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/google/tink/go/aead"
-	"github.com/google/tink/go/mac"
-	"github.com/google/tink/go/core/registry"
-	subtleMac "github.com/google/tink/go/subtle/mac"
-	"github.com/google/tink/go/testutil"
-	gcmpb "github.com/google/tink/proto/aes_gcm_go_proto"
-	commonpb "github.com/google/tink/proto/common_go_proto"
-	hmacpb "github.com/google/tink/proto/hmac_go_proto"
-	tinkpb "github.com/google/tink/proto/tink_go_proto"
+
+	"github.com/tsingson/tink/go/aead"
+	"github.com/tsingson/tink/go/core/registry"
+	"github.com/tsingson/tink/go/mac"
+	subtleMac "github.com/tsingson/tink/go/subtle/mac"
+	"github.com/tsingson/tink/go/testutil"
+	gcmpb "github.com/tsingson/tink/proto/aes_gcm_go_proto"
+	commonpb "github.com/tsingson/tink/proto/common_go_proto"
+	hmacpb "github.com/tsingson/tink/proto/hmac_go_proto"
+	tinkpb "github.com/tsingson/tink/proto/tink_go_proto"
 )
 
 func TestRegisterKeyManager(t *testing.T) {

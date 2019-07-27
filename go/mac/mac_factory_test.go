@@ -19,13 +19,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/google/tink/go/core/cryptofmt"
-	"github.com/google/tink/go/mac"
-	"github.com/google/tink/go/testkeyset"
-	"github.com/google/tink/go/testutil"
-	"github.com/google/tink/go/tink"
+	"github.com/tsingson/tink/go/core/cryptofmt"
+	"github.com/tsingson/tink/go/mac"
+	"github.com/tsingson/tink/go/testkeyset"
+	"github.com/tsingson/tink/go/testutil"
+	"github.com/tsingson/tink/go/tink"
 
-	tinkpb "github.com/google/tink/proto/tink_go_proto"
+	tinkpb "github.com/tsingson/tink/proto/tink_go_proto"
 )
 
 func TestFactoryMultipleKeys(t *testing.T) {

@@ -17,7 +17,7 @@ package signature
 import (
 	"golang.org/x/crypto/ed25519"
 
-	"github.com/google/tink/go/tink"
+	"github.com/tsingson/tink/go/tink"
 )
 
 // ED25519Signer is an implementation of Signer for ED25519.

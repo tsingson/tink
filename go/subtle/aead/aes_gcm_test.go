@@ -21,8 +21,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/google/tink/go/subtle/aead"
-	"github.com/google/tink/go/subtle/random"
+	"github.com/tsingson/tink/go/subtle/aead"
+	"github.com/tsingson/tink/go/subtle/random"
 )
 
 var keySizes = []int{16, 32}

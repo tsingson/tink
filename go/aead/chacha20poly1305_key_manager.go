@@ -19,13 +19,14 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/crypto/chacha20poly1305"
-	"github.com/google/tink/go/keyset"
-	"github.com/google/tink/go/core/registry"
-	"github.com/google/tink/go/subtle/aead"
-	"github.com/google/tink/go/subtle/random"
 
-	cppb "github.com/google/tink/proto/chacha20_poly1305_go_proto"
-	tinkpb "github.com/google/tink/proto/tink_go_proto"
+	"github.com/tsingson/tink/go/core/registry"
+	"github.com/tsingson/tink/go/keyset"
+	"github.com/tsingson/tink/go/subtle/aead"
+	"github.com/tsingson/tink/go/subtle/random"
+
+	cppb "github.com/tsingson/tink/proto/chacha20_poly1305_go_proto"
+	tinkpb "github.com/tsingson/tink/proto/tink_go_proto"
 )
 
 const (

@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/google/tink/go/tink"
+	"github.com/tsingson/tink/go/tink"
 )
 
 // AESSIV is an implemenatation of AES-SIV-CMAC as defined in

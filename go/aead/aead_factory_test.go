@@ -20,15 +20,15 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/google/tink/go/aead"
-	"github.com/google/tink/go/core/cryptofmt"
-	"github.com/google/tink/go/subtle/random"
-	"github.com/google/tink/go/testkeyset"
-	"github.com/google/tink/go/testutil"
-	"github.com/google/tink/go/tink"
+	"github.com/tsingson/tink/go/aead"
+	"github.com/tsingson/tink/go/core/cryptofmt"
+	"github.com/tsingson/tink/go/subtle/random"
+	"github.com/tsingson/tink/go/testkeyset"
+	"github.com/tsingson/tink/go/testutil"
+	"github.com/tsingson/tink/go/tink"
 
-	subtleAEAD "github.com/google/tink/go/subtle/aead"
-	tinkpb "github.com/google/tink/proto/tink_go_proto"
+	subtleAEAD "github.com/tsingson/tink/go/subtle/aead"
+	tinkpb "github.com/tsingson/tink/proto/tink_go_proto"
 )
 
 func TestFactoryMultipleKeys(t *testing.T) {

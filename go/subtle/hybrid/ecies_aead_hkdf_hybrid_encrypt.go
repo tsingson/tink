@@ -17,7 +17,7 @@ package hybrid
 import (
 	"bytes"
 
-	"github.com/google/tink/go/tink"
+	"github.com/tsingson/tink/go/tink"
 )
 
 // ECIESAEADHKDFHybridEncrypt is an instance of ECIES encryption with HKDF-KEM (key encapsulation mechanism)

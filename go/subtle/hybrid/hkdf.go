@@ -21,7 +21,8 @@ import (
 	"io"
 
 	"golang.org/x/crypto/hkdf"
-	"github.com/google/tink/go/subtle"
+
+	"github.com/tsingson/tink/go/subtle"
 )
 
 const (

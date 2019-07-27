@@ -14,7 +14,7 @@
 
 package hybrid
 
-import "github.com/google/tink/go/tink"
+import "github.com/tsingson/tink/go/tink"
 
 // EciesAEADHKDFDEMHelper a helper for DEM (data encapsulation mechanism) of ECIES-AEAD-HKDF.
 type EciesAEADHKDFDEMHelper interface {

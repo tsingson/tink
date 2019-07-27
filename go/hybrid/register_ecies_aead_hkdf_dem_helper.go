@@ -20,12 +20,13 @@ import (
 	"strings"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/google/tink/go/core/registry"
-	subtle "github.com/google/tink/go/subtle/hybrid"
-	"github.com/google/tink/go/tink"
-	ctrhmacpb "github.com/google/tink/proto/aes_ctr_hmac_aead_go_proto"
-	gcmpb "github.com/google/tink/proto/aes_gcm_go_proto"
-	tinkpb "github.com/google/tink/proto/tink_go_proto"
+
+	"github.com/tsingson/tink/go/core/registry"
+	subtle "github.com/tsingson/tink/go/subtle/hybrid"
+	"github.com/tsingson/tink/go/tink"
+	ctrhmacpb "github.com/tsingson/tink/proto/aes_ctr_hmac_aead_go_proto"
+	gcmpb "github.com/tsingson/tink/proto/aes_gcm_go_proto"
+	tinkpb "github.com/tsingson/tink/proto/tink_go_proto"
 )
 
 const (

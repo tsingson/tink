@@ -21,9 +21,10 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/google/tink/go/core/registry"
-	"github.com/google/tink/go/tink"
-	tinkpb "github.com/google/tink/proto/tink_go_proto"
+
+	"github.com/tsingson/tink/go/core/registry"
+	"github.com/tsingson/tink/go/tink"
+	tinkpb "github.com/tsingson/tink/proto/tink_go_proto"
 )
 
 const (

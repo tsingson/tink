@@ -18,9 +18,10 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/google/tink/go/core/registry"
-	"github.com/google/tink/go/subtle/signature"
-	"github.com/google/tink/go/testutil"
+
+	"github.com/tsingson/tink/go/core/registry"
+	"github.com/tsingson/tink/go/subtle/signature"
+	"github.com/tsingson/tink/go/testutil"
 )
 
 func TestED25519VerifyGetPrimitiveBasic(t *testing.T) {

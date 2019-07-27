@@ -17,12 +17,12 @@ package signature
 import (
 	"fmt"
 
-	"github.com/google/tink/go/core/cryptofmt"
-	"github.com/google/tink/go/keyset"
-	"github.com/google/tink/go/core/primitiveset"
-	"github.com/google/tink/go/core/registry"
-	"github.com/google/tink/go/tink"
-	tinkpb "github.com/google/tink/proto/tink_go_proto"
+	"github.com/tsingson/tink/go/core/cryptofmt"
+	"github.com/tsingson/tink/go/core/primitiveset"
+	"github.com/tsingson/tink/go/core/registry"
+	"github.com/tsingson/tink/go/keyset"
+	"github.com/tsingson/tink/go/tink"
+	tinkpb "github.com/tsingson/tink/proto/tink_go_proto"
 )
 
 // NewSigner returns a Signer primitive from the given keyset handle.

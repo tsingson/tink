@@ -19,7 +19,7 @@ import (
 	"hash"
 	"testing"
 
-	"github.com/google/tink/go/subtle"
+	"github.com/tsingson/tink/go/subtle"
 )
 
 func TestConvertHashName(t *testing.T) {

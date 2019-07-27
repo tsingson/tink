@@ -19,12 +19,13 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/google/tink/go/core/registry"
-	"github.com/google/tink/go/subtle/random"
-	"github.com/google/tink/go/subtle/signature"
-	"github.com/google/tink/go/testutil"
-	ed25519pb "github.com/google/tink/proto/ed25519_go_proto"
-	tinkpb "github.com/google/tink/proto/tink_go_proto"
+
+	"github.com/tsingson/tink/go/core/registry"
+	"github.com/tsingson/tink/go/subtle/random"
+	"github.com/tsingson/tink/go/subtle/signature"
+	"github.com/tsingson/tink/go/testutil"
+	ed25519pb "github.com/tsingson/tink/proto/ed25519_go_proto"
+	tinkpb "github.com/tsingson/tink/proto/tink_go_proto"
 )
 
 func TestED25519SignerGetPrimitiveBasic(t *testing.T) {

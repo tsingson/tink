@@ -22,8 +22,8 @@
 // import (
 //     "fmt"
 //
-//     "github.com/google/tink/go/mac"
-//     "github.com/google/tink/go/keyset"
+//     "github.com/tsingson/tink/go/mac"
+//     "github.com/tsingson/tink/go/keyset"
 // )
 //
 // func main() {
@@ -50,7 +50,7 @@ package mac
 import (
 	"fmt"
 
-	"github.com/google/tink/go/core/registry"
+	"github.com/tsingson/tink/go/core/registry"
 )
 
 func init() {

@@ -18,11 +18,11 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/google/tink/go/aead"
-	subtle "github.com/google/tink/go/subtle/hybrid"
-	"github.com/google/tink/go/subtle/random"
-	"github.com/google/tink/go/testutil"
-	tinkpb "github.com/google/tink/proto/tink_go_proto"
+	"github.com/tsingson/tink/go/aead"
+	subtle "github.com/tsingson/tink/go/subtle/hybrid"
+	"github.com/tsingson/tink/go/subtle/random"
+	"github.com/tsingson/tink/go/testutil"
+	tinkpb "github.com/tsingson/tink/proto/tink_go_proto"
 )
 
 func TestXxx(t *testing.T) {

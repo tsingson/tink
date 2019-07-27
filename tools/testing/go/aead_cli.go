@@ -29,12 +29,12 @@ import (
 	"log"
 	"os"
 
-	"github.com/google/tink/go/aead"
-	"github.com/google/tink/go/core/registry"
-	"github.com/google/tink/go/integration/awskms"
-	"github.com/google/tink/go/integration/gcpkms"
-	"github.com/google/tink/go/keyset"
-	"github.com/google/tink/go/testkeyset"
+	"github.com/tsingson/tink/go/aead"
+	"github.com/tsingson/tink/go/core/registry"
+	"github.com/tsingson/tink/go/integration/awskms"
+	"github.com/tsingson/tink/go/integration/gcpkms"
+	"github.com/tsingson/tink/go/keyset"
+	"github.com/tsingson/tink/go/testkeyset"
 )
 
 const (

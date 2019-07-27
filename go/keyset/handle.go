@@ -20,10 +20,10 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/google/tink/go/core/primitiveset"
-	"github.com/google/tink/go/core/registry"
-	"github.com/google/tink/go/tink"
-	tinkpb "github.com/google/tink/proto/tink_go_proto"
+	"github.com/tsingson/tink/go/core/primitiveset"
+	"github.com/tsingson/tink/go/core/registry"
+	"github.com/tsingson/tink/go/tink"
+	tinkpb "github.com/tsingson/tink/proto/tink_go_proto"
 )
 
 var errInvalidKeyset = fmt.Errorf("keyset.Handle: invalid keyset")

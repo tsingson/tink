@@ -17,8 +17,8 @@ package mac_test
 import (
 	"testing"
 
-	"github.com/google/tink/go/core/registry"
-	"github.com/google/tink/go/testutil"
+	"github.com/tsingson/tink/go/core/registry"
+	"github.com/tsingson/tink/go/testutil"
 )
 
 func TestMacInit(t *testing.T) {

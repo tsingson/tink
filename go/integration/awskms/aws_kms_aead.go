@@ -25,8 +25,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/kms"
 
-	"github.com/google/tink/go/aead"
-	"github.com/google/tink/go/tink"
+	"github.com/tsingson/tink/go/aead"
+	"github.com/tsingson/tink/go/tink"
 )
 
 // AWSAEAD represents a AWS KMS service to a particular URI.

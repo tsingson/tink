@@ -18,13 +18,14 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/google/tink/go/keyset"
-	"github.com/google/tink/go/core/registry"
-	"github.com/google/tink/go/subtle/daead"
-	"github.com/google/tink/go/subtle/random"
 
-	aspb "github.com/google/tink/proto/aes_siv_go_proto"
-	tinkpb "github.com/google/tink/proto/tink_go_proto"
+	"github.com/tsingson/tink/go/core/registry"
+	"github.com/tsingson/tink/go/keyset"
+	"github.com/tsingson/tink/go/subtle/daead"
+	"github.com/tsingson/tink/go/subtle/random"
+
+	aspb "github.com/tsingson/tink/proto/aes_siv_go_proto"
+	tinkpb "github.com/tsingson/tink/proto/tink_go_proto"
 )
 
 const (

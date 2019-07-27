@@ -18,11 +18,12 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/google/tink/go/insecurecleartextkeyset"
-	"github.com/google/tink/go/keyset"
-	"github.com/google/tink/go/testutil"
 
-	tinkpb "github.com/google/tink/proto/tink_go_proto"
+	"github.com/tsingson/tink/go/insecurecleartextkeyset"
+	"github.com/tsingson/tink/go/keyset"
+	"github.com/tsingson/tink/go/testutil"
+
+	tinkpb "github.com/tsingson/tink/proto/tink_go_proto"
 )
 
 func TestInvalidInput(t *testing.T) {

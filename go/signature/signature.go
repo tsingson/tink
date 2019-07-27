@@ -21,8 +21,8 @@
 // import (
 //     "fmt"
 //
-//     "github.com/google/tink/go/signature"
-//     "github.com/google/tink/go/keyset"
+//     "github.com/tsingson/tink/go/signature"
+//     "github.com/tsingson/tink/go/keyset"
 // )
 //
 // func main() {
@@ -50,7 +50,7 @@ package signature
 import (
 	"fmt"
 
-	"github.com/google/tink/go/core/registry"
+	"github.com/tsingson/tink/go/core/registry"
 )
 
 func init() {

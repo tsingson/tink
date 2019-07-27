@@ -24,8 +24,8 @@ import (
 
 	"golang.org/x/crypto/ed25519"
 
-	"github.com/google/tink/go/subtle/random"
-	subtleSignature "github.com/google/tink/go/subtle/signature"
+	"github.com/tsingson/tink/go/subtle/random"
+	subtleSignature "github.com/tsingson/tink/go/subtle/signature"
 )
 
 func TestED25519Deterministic(t *testing.T) {

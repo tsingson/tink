@@ -18,7 +18,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/google/tink/go/subtle/aead"
+	"github.com/tsingson/tink/go/subtle/aead"
 )
 
 func TestValidateAESKeySize(t *testing.T) {

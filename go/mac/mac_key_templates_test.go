@@ -19,11 +19,12 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/google/tink/go/mac"
-	"github.com/google/tink/go/testutil"
-	commonpb "github.com/google/tink/proto/common_go_proto"
-	hmacpb "github.com/google/tink/proto/hmac_go_proto"
-	tinkpb "github.com/google/tink/proto/tink_go_proto"
+
+	"github.com/tsingson/tink/go/mac"
+	"github.com/tsingson/tink/go/testutil"
+	commonpb "github.com/tsingson/tink/proto/common_go_proto"
+	hmacpb "github.com/tsingson/tink/proto/hmac_go_proto"
+	tinkpb "github.com/tsingson/tink/proto/tink_go_proto"
 )
 
 func TestTemplates(t *testing.T) {

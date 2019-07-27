@@ -21,8 +21,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/google/tink/go/subtle/aead"
-	"github.com/google/tink/go/subtle/random"
+	"github.com/tsingson/tink/go/subtle/aead"
+	"github.com/tsingson/tink/go/subtle/random"
 )
 
 func TestNewAESCTR(t *testing.T) {

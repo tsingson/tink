@@ -19,7 +19,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	tinkpb "github.com/google/tink/proto/tink_go_proto"
+	tinkpb "github.com/tsingson/tink/proto/tink_go_proto"
 )
 
 const (

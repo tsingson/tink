@@ -22,9 +22,9 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/google/tink/go/subtle/kwp"
-	"github.com/google/tink/go/subtle/random"
-	"github.com/google/tink/go/testutil"
+	"github.com/tsingson/tink/go/subtle/kwp"
+	"github.com/tsingson/tink/go/subtle/random"
+	"github.com/tsingson/tink/go/testutil"
 )
 
 func TestWrapUnwrap(t *testing.T) {

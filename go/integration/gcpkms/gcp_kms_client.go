@@ -21,10 +21,10 @@
 // package main
 //
 // import (
-//     "github.com/google/tink/go/aead"
-//     "github.com/google/tink/go/core/registry"
-//     "github.com/google/tink/go/integration/gcpkms"
-//     "github.com/google/tink/go/keyset"
+//     "github.com/tsingson/tink/go/aead"
+//     "github.com/tsingson/tink/go/core/registry"
+//     "github.com/tsingson/tink/go/integration/gcpkms"
+//     "github.com/tsingson/tink/go/keyset"
 // )
 //
 // const (
@@ -69,11 +69,11 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/google/tink/go/core/registry"
-	"github.com/google/tink/go/tink"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
-	"google.golang.org/api/cloudkms/v1"
+
+	"github.com/tsingson/tink/go/core/registry"
+	"github.com/tsingson/tink/go/tink"
 )
 
 const (

@@ -17,17 +17,17 @@ package gcpkms
 import (
 	"bytes"
 	"errors"
+	"flag"
 	"os"
 	"testing"
 
-	"flag"
 	// context is used to cancel outstanding requests
 	// TEST_SRCDIR to read the roots.pem
-	"github.com/google/tink/go/aead"
-	"github.com/google/tink/go/core/registry"
-	"github.com/google/tink/go/keyset"
-	"github.com/google/tink/go/subtle/random"
-	"github.com/google/tink/go/tink"
+	"github.com/tsingson/tink/go/aead"
+	"github.com/tsingson/tink/go/core/registry"
+	"github.com/tsingson/tink/go/keyset"
+	"github.com/tsingson/tink/go/subtle/random"
+	"github.com/tsingson/tink/go/tink"
 )
 
 const (

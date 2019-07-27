@@ -19,11 +19,11 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/google/tink/go/aead"
-	"github.com/google/tink/go/mac"
-	"github.com/google/tink/go/signature"
-	"github.com/google/tink/go/subtle/random"
-	tinkpb "github.com/google/tink/proto/tink_go_proto"
+	"github.com/tsingson/tink/go/aead"
+	"github.com/tsingson/tink/go/mac"
+	"github.com/tsingson/tink/go/signature"
+	"github.com/tsingson/tink/go/subtle/random"
+	tinkpb "github.com/tsingson/tink/proto/tink_go_proto"
 )
 
 var (

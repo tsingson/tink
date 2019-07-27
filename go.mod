@@ -1,4 +1,4 @@
-module github.com/google/tink
+module github.com/tsingson/tink
 
 go 1.12
 

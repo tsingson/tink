@@ -19,7 +19,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/google/tink/go/testutil"
+	"github.com/tsingson/tink/go/testutil"
 )
 
 func TestWycheproofParsing(t *testing.T) {

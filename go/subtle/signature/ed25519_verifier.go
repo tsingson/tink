@@ -20,7 +20,7 @@ import (
 
 	"golang.org/x/crypto/ed25519"
 
-	"github.com/google/tink/go/tink"
+	"github.com/tsingson/tink/go/tink"
 )
 
 var errInvalidED25519Signature = errors.New("ed25519: invalid signature")
